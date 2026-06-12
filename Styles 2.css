@@ -53,16 +53,27 @@ h2 {
 }
 
 
+H5 {
+    color: white;
+}
+
+
+
 .Noir h2 {
     color: white;
     margin-top: -40px;
     margin-bottom: 60px;
 }
 
+.p {
+color: red
+}
+
 
 .Titres-sections {
     margin-top: -40px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 
@@ -85,12 +96,16 @@ h2 {
 }
 
 
+
+
 .Noir h3{
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 
 .Text-center {
@@ -101,7 +116,7 @@ h2 {
 .Compétences {
     background: white;
     width: 15%;
-    margin-left: 50px;
+    margin-left: 16px;
     padding: 10px;
     padding-bottom: 0px;
     border-radius: 10px;
@@ -141,7 +156,18 @@ h2 {
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
+
+
+.projects-links {
+    margin-top: auto;
+}
+
+
+
 
 
 .Bulles-projets:hover {
@@ -166,6 +192,7 @@ h2 {
 }
 
 
+
 .Projets-Languages {
     color: var(--primary-color);
     font-weight: 600;
@@ -177,7 +204,8 @@ h2 {
 
 .Titres-projets {
     color: black;
-    font-size: 2rem;    
+    font-size: 2rem;
+    height: 100%;
 }
 
 
@@ -188,6 +216,19 @@ h2 {
     transition: color 0.3s ease;
     font-size: 110%
 }
+
+
+.projects-links3 {
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 97px;
+    transition: color 0.3s ease;
+    font-size: 110%
+}
+
+
+
 
 .projects-links:hover {
     color: #1e40af;
@@ -209,6 +250,34 @@ h2 {
 #H4 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+#Veille-sujet {
+color: white;
+font-size: 1.5rem;
+text-align: center;
+}
+
+
+.Point-du-projet {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 2%;
+}
+
+
+
+.Liste-veille {
+    padding-left: 2%;
+}
+
+
+.p-veille {
+    padding-left: 2%;
+}
+
+
+
 
 .contact {
     position: relative;
